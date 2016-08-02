@@ -64,15 +64,7 @@ int main(int argc, const char * argv[]) {
         output = fopen ("modified.png", "wb");
         fwrite (string , sizeof(char), buffersize, output);
         fclose (output);
-        
-        
-        //    uint8_t tab[] = {0x49,0x45,0x4e,0x44};
-        //    int param = 0;
-        //    int test = crc32(param,tab,4);
-        //    printf("%x\n",test);
-        
-        
-        //printf("%x %x %x\n",string[0],string[1],string[2]);
+
     }
     return 0;
 }
