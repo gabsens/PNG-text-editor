@@ -14,7 +14,8 @@ This tool is intented to be used with the `tEXt` chunk as argument, as it is a l
 
 If the payload or keyword contains special caracters, you need to enclose it with single quotation marks. For example you might type something along this line in your console:
 
-`./pngtext /path/file.png tEXt testKeyword 'F!MxMV2`
+`./pngtext /path/file.png tEXt testKeyword 'F!MxMV2'
 
 This will add a tEXt chunk with keyword "testKeyword" and text "F!MxMV2"
+
 Will probably fail on Windows.
